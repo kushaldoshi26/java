@@ -1,0 +1,23 @@
+import java.util.Scanner;
+
+class rupeesDecimal{
+
+	public static void main(String vrgs[]){
+
+	Scanner sc = new Scanner(System.in);
+
+	System.out.print("enter the amount of rupees :- ");
+	String rupees = sc.nextInt();
+
+	System.out.print("enter the amount of dollar :- ");
+	String dollar = sc.nextInt();
+
+	String ans = (rupees/dollar);
+
+	System.out.println( rupees+ "current value of dollar is = "+ans+ "$");
+
+	
+
+}
+
+}
